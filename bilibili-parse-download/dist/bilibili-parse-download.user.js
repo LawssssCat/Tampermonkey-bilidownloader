@@ -8,8 +8,6 @@
 // @license       MIT
 // @source        https://github.com/injahow/user.js
 // @supportURL    https://github.com/injahow/user.js/issues
-// @downloadURL   https://greasyfork.org/scripts/413228-bilibili%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD/code/bilibili%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD.user.js
-// @updateURL     https://greasyfork.org/scripts/413228-bilibili%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD/code/bilibili%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD.user.js
 // @match         *://www.bilibili.com/video/av*
 // @match         *://www.bilibili.com/video/BV*
 // @match         *://www.bilibili.com/list/*
@@ -18,8 +16,7 @@
 // @match         *://www.bilibili.com/cheese/play/ep*
 // @match         *://www.bilibili.com/cheese/play/ss*
 // @match         https://www.mcbbs.net/template/mcbbs/image/special_photo_bg.png*
-// @require       https://static.hdslb.com/js/jquery.min.js
-// @icon          https://static.hdslb.com/images/favicon.ico
+// @require       https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js
 // @compatible    chrome
 // @compatible    firefox
 // @grant         none
@@ -2350,7 +2347,7 @@
         function Main() {
             !function main_classCallCheck(instance, Constructor) {
                 if (!(instance instanceof Constructor)) throw new TypeError("Cannot call a class as a function");
-            }(this, Main), console.log("\n".concat(" %c bilibili-parse-download.user.js v", "2.5.5", " ").concat("e23d4cd", " %c https://github.com/injahow/user.js ", "\n", "\n"), "color: #fadfa3; background: #030307; padding:5px 0;", "background: #fadfa3; padding:5px 0;");
+            }(this, Main), console.log("\n".concat(" %c bilibili-parse-download.user.js v", "2.5.5", " ").concat("b7225b5", " %c https://github.com/injahow/user.js ", "\n", "\n"), "color: #fadfa3; background: #030307; padding:5px 0;", "background: #fadfa3; padding:5px 0;");
         }
         return function main_createClass(Constructor, protoProps, staticProps) {
             return protoProps && main_defineProperties(Constructor.prototype, protoProps), staticProps && main_defineProperties(Constructor, staticProps), 

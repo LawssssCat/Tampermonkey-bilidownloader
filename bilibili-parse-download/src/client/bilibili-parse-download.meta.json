@@ -11,8 +11,6 @@
       "license": "MIT",
       "source": "https://github.com/injahow/user.js",
       "supportURL": "https://github.com/injahow/user.js/issues",
-      "downloadURL": "https://greasyfork.org/scripts/413228-bilibili%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD/code/bilibili%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD.user.js",
-      "updateURL": "https://greasyfork.org/scripts/413228-bilibili%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD/code/bilibili%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD.user.js",
       "match": [
         "*://www.bilibili.com/video/av*",
         "*://www.bilibili.com/video/BV*",
@@ -23,8 +21,7 @@
         "*://www.bilibili.com/cheese/play/ss*",
         "https://www.mcbbs.net/template/mcbbs/image/special_photo_bg.png*"
       ],
-      "require": ["https://static.hdslb.com/js/jquery.min.js"],
-      "icon": "https://static.hdslb.com/images/favicon.ico",
+      "require": ["https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"],
       "compatible": ["chrome", "firefox"],
       "grant": "none"
     },
